@@ -1,0 +1,33 @@
+{
+    "name": "GR1D Network Testnet",
+    "chain": "gr1d-network-testnet",
+    "rpc": ["https://testnet.gr1d.network", "wss://ws-testnet.gr1d.network"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GR1D Network Testnet",
+      "symbol": "GRID",
+      "decimals": 18
+    },
+    "infoURL": "https://www.playnance.com",
+    "shortName": "gr1d-network-testnet",
+    "chainId": 9122,
+    "slip44": 60,
+    "networkId": 9122,
+    "explorers": [
+      {
+        "name": "GR1D Network Testnet",
+        "url": "https://explorer-testnet.gr1d.network/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge-testnet.gr1d.network/bridge/gr1d-network-testnet"
+        }
+      ]
+    }
+  }
+  
