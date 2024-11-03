@@ -1,0 +1,31 @@
+ {
+    "name": "Eva Intelligence",
+    "chain": "eva-intelligence",
+    "rpc": ["https://rpc.eva-intelligence.t.raas.gelato.cloud", "wss://ws.eva-intelligence.t.raas.gelato.cloud"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "Eva Intelligence",
+    "chainId": 123420000534,
+    "slip44": 60,
+    "networkId": 123420000534,
+    "explorers": [
+      {
+        "name": "Eva Intelligence",
+        "url": "https://explorer.eva-intelligence.t.raas.gelato.cloud/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/eva-intelligence"
+        }
+      ]
+    }
+  }
