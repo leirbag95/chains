@@ -1,0 +1,31 @@
+{
+    "name": "Lydia Testnet",
+    "chain": "lydia-testnet",
+    "rpc": ["https://rpc.lydia-testnet.t.raas.gelato.cloud", "wss://ws.lydia-testnet.t.raas.gelato.cloud"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "lydia-testnet",
+    "chainId": 123420000520,
+    "slip44": 60,
+    "networkId": 123420000520,
+    "explorers": [
+      {
+        "name": "Lydia Testnet",
+        "url": "https://explorer.lydia-testnet.t.raas.gelato.cloud/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-8453",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/lydia-testnet"
+        }
+      ]
+    }
+  }
