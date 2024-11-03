@@ -1,0 +1,32 @@
+
+  {
+    "name": "GR1D Testnet",
+    "chain": "gr1d-testnet",
+    "rpc": ["https://rpc-123420000418.raas-testnet.gelato.digital", "wss://ws-123420000418.raas-testnet.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "GR1D Testnet",
+      "symbol": "DIRG",
+      "decimals": 18
+    },
+    "shortName": "gr1d-tstnet",
+    "chainId": 123420000418,
+    "slip44": 60,
+    "networkId": 123420000418,
+    "explorers": [
+      {
+        "name": "GR1D Testnet",
+        "url": "https://testnet-blockscout.eh-dev.app/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/gr1d-testnet-1"
+        }
+      ]
+    }
+  }
