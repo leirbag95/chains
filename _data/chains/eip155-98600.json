@@ -1,0 +1,31 @@
+  {
+    "name": "OP EigenDA Cherry",
+    "chain": "op-eigenda-cherry",
+    "rpc": ["https://rpc.op-eigenda-cherry.gelato.digital", "wss://ws.op-eigenda-cherry.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "op-eigenda-cherry",
+    "chainId": 98600,
+    "slip44": 60,
+    "networkId": 98600,
+    "explorers": [
+      {
+        "name": "OP EigenDA Cherry",
+        "url": "https://explorer.op-eigenda-cherry.gelato.digital/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge.gelato.network/bridge/op-eigenda-cherry"
+        }
+      ]
+    }
+  }
