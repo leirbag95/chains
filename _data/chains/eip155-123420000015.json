@@ -1,0 +1,32 @@
+
+  {
+    "name": "touch-duck-national",
+    "chain": "touch-duck-national",
+    "rpc": ["https://rpc-123420000015.raas-testnet.gelato.digital", "wss://ws-123420000015.raas-testnet.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "touch-duck-national",
+    "chainId": 123420000015,
+    "slip44": 60,
+    "networkId": 123420000015,
+    "explorers": [
+      {
+        "name": "touch-duck-national",
+        "url": "https://blockscout-123420000015.raas-testnet.gelato.digital/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://bridge.gelato.network/bridge/touch-duck-national"
+        }
+      ]
+    }
+  }
