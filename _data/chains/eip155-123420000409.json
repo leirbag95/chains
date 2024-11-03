@@ -1,0 +1,31 @@
+  {
+    "name": "leave-discovery-stems",
+    "chain": "leave-discovery-stems",
+    "rpc": ["https://rpc-123420000409.raas-testnet.gelato.digital", "wss://ws-123420000409.raas-testnet.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "leave-discovery-stems",
+    "chainId": 123420000409,
+    "slip44": 60,
+    "networkId": 123420000409,
+    "explorers": [
+      {
+        "name": "leave-discovery-stems",
+        "url": "https://blockscout-123420000409.raas-testnet.gelato.digital/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/leave-discovery-stems"
+        }
+      ]
+    }
+  }
