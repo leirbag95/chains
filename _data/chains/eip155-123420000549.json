@@ -1,0 +1,31 @@
+{
+    "name": "Blockworks",
+    "chain": "blockworks",
+    "rpc": ["https://rpc.blockworks-chain.t.raas.gelato.cloud", "wss://ws.blockworks-chain.t.raas.gelato.cloud"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "shortName": "blockworks",
+    "chainId": 123420000549,
+    "slip44": 60,
+    "networkId": 123420000549,
+    "explorers": [
+      {
+        "name": "Blockworks",
+        "url": "https://explorer.blockworks-chain.t.raas.gelato.cloud/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/blockworks-chain"
+        }
+      ]
+    }
+  }
