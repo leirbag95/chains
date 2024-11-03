@@ -1,0 +1,31 @@
+  {
+    "name": "Novastro Testnet",
+    "chain": "novastro-testnet",
+    "rpc": ["https://rpc.novastro-testnet.gelato.digital", "wss://ws.novastro-testnet.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Novastro",
+      "symbol": "NOVA",
+      "decimals": 18
+    },
+    "shortName": "novastro-testnet",
+    "chainId": 560098,
+    "slip44": 60,
+    "networkId": 560098,
+    "explorers": [
+      {
+        "name": "Novastro Testnet",
+        "url": "https://explorer.novastro.xyz/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-421614",
+      "bridges": [
+        {
+          "url": "https://bridge.gelato.network/bridge/novastro-testnet"
+        }
+      ]
+    }
+  }
