@@ -1,0 +1,31 @@
+  {
+    "name": "Ludico Tetromino",
+    "chain": "ludico-tetromino",
+    "rpc": ["https://rpc-123420000352.raas-testnet.gelato.digital", "wss://ws-123420000352.raas-testnet.gelato.digital"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ludico Token",
+      "symbol": "LUDI",
+      "decimals": 18
+    },
+    "shortName": "ludico-tetromino",
+    "chainId": 34949059,
+    "slip44": 60,
+    "networkId": 34949059,
+    "explorers": [
+      {
+        "name": "Ludico tetromino",
+        "url": "https://blockscout-123420000352.raas-testnet.gelato.digital/",
+        "standard": "none"
+      }
+    ],
+    "parent": {
+      "type": "L1",
+      "chain": "eip155-11155111",
+      "bridges": [
+        {
+          "url": "https://testnet-bridge.gelato.network/bridge/ludico-tetromino-1"
+        }
+      ]
+    }
+  }
